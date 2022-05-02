@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <StartupObject>LG.DataTransform.Program</StartupObject>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\LG.DataTranform.Core\LG.DataTransform.Core.csproj" />
+    <ProjectReference Include="..\LG.DataTransform.Models\LG.DataTransform.Models.csproj" />
+  </ItemGroup>
+
+</Project>
